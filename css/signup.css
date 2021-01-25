@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-image: url("./images/signupbg"); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    /* align-items: center; */
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.19); */
+    width: 300px;
+    max-width: 100%;
+    margin-left: -15%;
+   
+}
+.row{
+    margin-top: 20%;
+    margin-left: 0;
+    padding-left: 0;
+}
+#signup{
+    color:white;
+    text-shadow: 2px 2px 4px rgb(50, 50, 53);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: -40%; */
+    margin-left: 50%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.inputs{
+    /* position: relative; */
+    top: 10px;
+    padding-left: 6%;
+}
+
+.signcol{
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    border-radius: 2%;
+    padding: 10% 2% 5% 13%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 450px;
+}
+
+.labels{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(36, 171, 233);
+    padding: 1px;
+}
+
+.formbar{
+    width: 400px;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control i {
+    visibility: hidden;
+    /* position: absolute; */
+    top: 40px;
+    right: 10px;
+}
+.form-control.success i.fa-check-circle{
+    color:#2ecc71 ;
+    visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c3c ;
+    visibility: visible;
+}
+.form-control small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+::placeholder{
+    color: black;
+}
+
+.textar{
+    height: 70px;
+    
+}
+
+#buttn{
+    align-content: center;
+    width: 400px;
+    height: 30px;
+    margin-top: 2%;
+    color: blanchedalmond;
+    background-color: rgb(36, 171, 233);
+    border: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+

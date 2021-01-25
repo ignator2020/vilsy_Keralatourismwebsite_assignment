@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dist-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    
+    <title>Kottayam</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <!-- navbar navbar-expand-md bg-light justify-content-center -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="60" height="60">
+              </a>
+          <div class="d-flex justify-content-end">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item nav-myMargin">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item nav-myMargin">
+                <a class="nav-link" href="index.html">DISTRICTS</a>
+              </li>
+              <li class="nav-item nav-myMargin">
+                <a class="nav-link" href="index.html">PLAN YOUR TRIP</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">SIGN UP</a>
+              </li> -->
+              <li class="nav-item nav-myMargin">
+                <a class="nav-link" href="contact.html" target="_blank">CONTACT</a>
+              </li>
+            </ul>
+
+            
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </button>
+
+           
+            <div class="search-btn">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+              <!-- <div class="input-group md-form form-sm form-2 pl-0">
+                    <input class="form-control me-2" type="search" placeholder="Search" type="text" placeholder="Search" aria-label="Search">
+                        <div class="input-group-append">
+                            <span class="input-group-textlighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                                aria-hidden="true"></i></span>
+                        </div>
+              </div> -->
+          </div>
+        </div>
+        </div>
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <form>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel" style="text-align: center; color: rgb(67, 67, 238);">LOGIN</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        
+      </div>
+      <div class="modal-footer">
+        <h6>New User?</h6>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='./signup.html'">Sign Up</button>
+        
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+      </nav>
+
+    <!-- END OF NAVBAR -->
+    <!-- Main Heading and Content -->
+    <h1 class="tvm">
+        KOTTAYAM
+    </h1>
+    <div class="container cont-tvm">
+        <img src="./images/kottayam/kottayam.jpg" alt="LA">
+        <p>
+            
+            <span>K</span>ottayam is a city in the Indian state of Kerala. Kottayam literally means the interior of a fort—Kotta + Akam. Flanked by the Western Ghats on the east and the Vembanad Lake and paddy fields of Kuttanad on the west, Kottayam is a place that is known for extraordinary qualities.
+        </p>
+    </div>
+
+    <!-- End of Main Heading and Content -->
+
+    <!-- Places to visit -->
+
+    <h1 class="tvm">PLACES TO VISIT IN KOTTAYAM</h1>
+
+    <div class="container cont-sree">
+
+        <h3 class="sreepad">VIMALAGIRI IMMACULATE HEART OF MARY CATHEDRAL</h3>
+       <div class="row sree-row">
+        <div class="col-lg-8">
+            <p>
+                The Immaculate Heart of Mary Cathedral, also known as the Vimalagiri Cathedral or as Angathattu Palli located at Kottayam is the cathedral of the Diocese of Vijayapuram. Built in the Gothic architectural style, the church has a 172-foot tall tower which is one of the tallest church towers in Kerala. The foundation stone of Vimalagiri Church was laid in the year 1956. The construction of the imposing edifice was finished in the year 1964. Its feast celebrated on 8 December every year, the feast of the Immaculate Heart of Mary.
+            </p>
+        </div>
+           <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./images/kottayam/Immaculate_Heart_of_Mary_Vimalagiri_Cathedral_Kottayam.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/kottayam/vimalagiri1.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/kottayam/vimalagiri2.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/kottayam/vimalagiri3.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            
+        </div>   
+        
+        <h3 class="sreepad">THAZHATHANGADY JUMA MASJID</h3>
+       <div class="row sree-row">
+        
+           <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./images/kottayam/juma_masjid_at_thazhathangadi.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/kottayam/Thazhathangady1.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <p>
+                    Thazhathangady Juma Masjid is a mosque situated in Thazhathangady, one of the Heritage Zones of Kerala, India, near the town of Kottayam. It is one of the oldest mosques in India and is more than 1000 years old. It is famous for its richness of architecture, wood carvings and the beauty. Southern half of it is demolished and extended with iron pillars, aluminium sheets and minars in 2012. Website: https://thazhathangadyjumamasjid.com/ This mosque is situated on the banks of the Meenachil river. Thazhathangady Juma Masjid is also called as the "Taj Juma Masjid". The ancestors of this Masjid came and settled in Kottayam, from different parts of Kerala. The Muslims who lived here played an active role in Freedom Struggle and other National Movements. This mosque is known for its intricate wooden carvings and architecture. As per the latest update Thazhathangady Juma Masjid in Kerala's Kotayam has opened its doors for women devotees. "Muslim women in the right attire can enter the mosque only on the two days, April 24 and May 8, as decided by the committee," said Moulavi Sirajjuddeen Hasni, the chief imam. Website: https://thazhathangadyjumamasjid.com/
+                 </p>
+            </div>
+            
+        </div>   
+
+
+        <h3 class="sreepad">MOZART ART GALLERY</h3>
+       <div class="row sree-row">
+        <div class="col-lg-8">
+            <p>
+                Located in the residential apartments of a Mr. M. Somu, in the Ayemenem village of Kottayam, Mozart Art Gallery is a haven for art enthusiasts and lovers. With an objective to popularize fine arts and to impart knowledge about contemporary and classical paintings and sketches, this private venture provides a platform to artists across countries to view the methodology and technique behind painting, sketching and other fine arts. The gallery is a fine representation of paintings and works of Mr. Somu where he has used a variety of paints including acrylic, oil, charcoal, pencil and other combination.
+
+Other than the brilliant collection of Mr. Somu, the quaint exhibition displays antiques and other traditional products from Kerala. A lot of exhibits in the gallery are based on the theme of Ms. Arundhati Roy’s ‘God of Small Things’ which was published in 1997. Besides, the centre also facilitates training to beginners and young enthusiasts who want to learn the art. The tiny village hosting the gallery is also a charming place for a day trip to soak amidst lush greenery and placid backwaters.
+            </p>
+        </div>
+           <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./images/kottayam/mozart1.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/kottayam/mozart-art-gallery.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <!-- End of places to visit -->
+
+    <!-- Other Major Places in Kottayam -->
+    <div class="container cont-sree">
+        <h3 class="other">OTHER MAJOR ATTRACTIONS IN KOTTAYAM</h3>
+        <div class="row">
+            <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./images/kottayam/thirunakkara-sree-mahadevar-temple.jpg" class="d-block w-100 other-img" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/kottayam/cheriyapally.jpg" class="d-block w-100 other-img" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/kottayam/panachi.jpg" class="d-block w-100 other-img" alt="">
+                    </div>
+                   
+                    
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <form method="get" action="https://www.google.com/travel/things-to-do/places?g2lb=2502548%2C2503781%2C4258168%2C4270442%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4428793%2C4463263%2C4463666%2C4464463%2C4474859%2C4482194%2C4482438%2C4270859%2C4284970%2C4291517&hl=en-IN&gl=in&un=1&dest_mid=%2Fm%2F0fk98&dest_state_type=sap&dest_src=ts&sa=X&ved=2ahUKEwiR6PSLrZbuAhXP93MBHUeEAPMQ69EBKAMwAHoECAQQLA&mvb=ChIJejmxDmbtIEAR7o2wpA44U0ASEgmrVzKkBikhQBHujbDEmkBTQA#ttdm=8.492986_76.942688_12&ttdmf=%252Fg%252F1tj1qhvn" target=”_blank”>
+                    <button type="submit" class="explore">Click to explore more places</button>
+                </form>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+
+    <!-- End of Other Major Places in kottayam -->
+
+
+    <div class="view view-cascade gradient-card-header peach-gradient">
+        <h3 id="heading">KOTTAYAM MAP</h3>
+      </div>
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade text-center">
+
+        <!--Google map-->
+        <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62944.10374388446!2d76.48557287116788!3d9.594708673369869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062ba16c6b435f%3A0xbe2b02f68f8dd06e!2sKottayam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1610563231565!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+
+      </div>
+
+       <!-- footer -->
+       <footer  style="background-color: #2c292f">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 text-center text-md-left ">
+                    
+                    <div class="py-0">
+                        <h3 class="my-4 text-white"><span class="mx-2 font-italic text-warning ">Kerala Tourism</span></h3>
+  
+                        <p class="footer-links font-weight-bold">
+                            <a class="text-white" href="#">Home</a>
+                            |
+                            <a class="text-white" href="#">Blog</a>
+                            |
+                            <a class="text-white" href="#">About</a>
+                            |
+                            <a class="text-white" href="#">Contact</a>
+                        </p>
+                        <p class="text-light py-4 mb-4">All rights reserved © Kerala Tourism
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-white text-center text-md-left ">
+                    <div class="py-2 my-4">
+                        <div>
+                            <p class="text-white"> <i class="fa fa-map-marker mx-2 "></i>
+                              Department of Tourism, Government of Kerala,
+                              Park View, Thiruvananthapuram,
+                              Kerala, India - 695 033</p>
+                        </div>
+  
+                        <div> 
+                            <p><i class="fa fa-phone  mx-2 "></i> +91 471 232113</p>
+                        </div>
+                        <div>
+                            <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:info@keralatourism.org">info@keralatourism.org</a></p>
+                        </div>  
+                    </div>  
+                </div>
+                
+                <div class="col-md-4 text-white my-4 text-center text-md-left ">
+                    <span class=" font-weight-bold "><a href="#">Copyright</a>  |<a href="#">Terms of Use</a>  |<a href="#">Cookie Policy</a>  | <a href="#">Contact Us</a></span>
+          <p class="text-warning my-2" >Developed & Maintained by Vilsy Varghese.</p>
+                    <div class="py-2">
+                        <a href="#"><i class="fa fa-facebook fa-2x text-primary mx-3"></i></a>
+                        <a href="#"><i class="fa fa-google-plus fa-2x text-danger mx-3"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x text-info mx-3"></i></a>
+                        <a href="#"><i class="fa fa-youtube fa-2x text-danger mx-3"></i></a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+     </footer>
+     <!-- end of footer -->
+</body>
+</html>

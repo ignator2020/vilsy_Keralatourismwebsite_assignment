@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dist-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    
+    <title>Pathanamthitta</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <!-- navbar navbar-expand-md bg-light justify-content-center -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="60" height="60">
+              </a>
+          <div class="d-flex justify-content-end">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item nav-myMargin">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item nav-myMargin">
+                <a class="nav-link" href="index.html">DISTRICTS</a>
+              </li>
+              <li class="nav-item nav-myMargin">
+                <a class="nav-link" href="index.html">PLAN YOUR TRIP</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">SIGN UP</a>
+              </li> -->
+              <li class="nav-item nav-myMargin">
+                <a class="nav-link" href="contact.html" target="_blank">CONTACT</a>
+              </li>
+            </ul>
+
+            
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </button>
+
+           
+            <div class="search-btn">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+              <!-- <div class="input-group md-form form-sm form-2 pl-0">
+                    <input class="form-control me-2" type="search" placeholder="Search" type="text" placeholder="Search" aria-label="Search">
+                        <div class="input-group-append">
+                            <span class="input-group-textlighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                                aria-hidden="true"></i></span>
+                        </div>
+              </div> -->
+          </div>
+        </div>
+        </div>
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <form>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel" style="text-align: center; color: rgb(67, 67, 238);">LOGIN</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        
+      </div>
+      <div class="modal-footer">
+        <h6>New User?</h6>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='./signup.html'">Sign Up</button>
+        
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+      </nav>
+
+    <!-- END OF NAVBAR -->
+    <!-- Main Heading and Content -->
+    <h1 class="tvm">
+        PATHANAMTHITTA
+    </h1>
+    <div class="container cont-tvm">
+        <img src="./images/pathanamthitta/Pathanamthitta.jpg" alt="LA">
+        <p>
+            
+            <span>P</span>athanamthitta district is known as the 'Headquarters of Pilgrimage Tourism', of the Kerala State. Situated near the Western Ghats and bordered by the hills, Pathanamthitta district is a treat to eyes with its vast unending stretches of forests, rivers and rural landscapes. Blessed by nature, the district is famous for its scenic beauty, fairs and festivals. This website is the official page of District Tourism Promotion Council, Pathanamthitta (DTPC) where visitors can browse the destinations and learn about various activities of DTPC
+        </p>
+    </div>
+
+    <!-- End of Main Heading and Content -->
+
+    <!-- Places to visit -->
+
+    <h1 class="tvm">PLACES TO VISIT IN PATHANAMTHITTA</h1>
+
+    <div class="container cont-sree">
+        <h3 class="sreepad">CHUTTIPPARA</h3>
+       <div class="row sree-row">
+        <div class="col-lg-8">
+            <p>
+                Chuttippara, a 200 ft. rock cluster is one of the tourist spots where you can get a panoramic view of Pathanamthitta town. Atop the hill, there is a temple dedicated to Lord Shiva, Harihara Mahadeva Temple.
+            </p>
+        </div>
+           <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./images/pathanamthitta/Chuttippara.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/chuttipara2.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/chuttipara3.jpeg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/chuttippara4.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/chuttippara1.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            
+        </div>   
+
+        <h3 class="sreepad">MALAYALAPUZHA DEVI TEMPLE</h3>
+       <div class="row sree-row">
+        
+           <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./images/pathanamthitta/Malayalapuzha.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/malayalapuzha1.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/malayalapuzha2.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/malayalapuzha3.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/malayalapuzha4.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <p>
+                    Malayalappuzha Devi Temple is a Bhadrakali temple situated at Malayalappuzha in Pathanamthitta in Kerala, India. It is believed that the temple was built more than 1000 years ago. In the temple, Bhadrakali is seen in a ferocious form soon after the killing of the demon, Darika. The main idol is 5.5 feet high, made from katu sarkara yogam. In addition to this idol, two other idols are also erected inside the sanctum sanctorum; one used for abhisheka and the other for sreebali, a daily ritual. WORSHIPING Malayalapuzha Devi is believed to grant boons for extending prosperity to all the devotees. The goddess is worshiped for protecting the devotee from enemies, getting the unmarried girls married, obtaining job for the unemployed, and helping businesses flourish. This popular belief and faith makes the temple visited by devotees from far locations. The devi is also known as Goddess Idathattil Bhagwathi  </p>
+            </div>
+            
+        </div>   
+
+
+        <h3 class="sreepad">MOR IGNATIUS DAYARA MANJINIKKARA</h3>
+       <div class="row sree-row">
+        <div class="col-lg-8">
+            <p>
+                Manjanikkara Dayara is a monastery of the Syriac Orthodox Church. It is situated at the top of the hillock in Manjanikkara, near Omallur, Pathanamthitta District, in South Kerala, India. The monastery was established by Mor Yulios Elias Qoro, Patriarchal delegate to the Malankara Church. The Manjanikkara Dayro is the seat of the Patriarchal Delegate to Malankara and the metropolitan of the Simhasana churches.
+            </p>
+        </div>
+           <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./images/pathanamthitta/manjinikara-church.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/manjinikkara1.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/manjinikkara2.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/Manjinikkara3.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/Manjinikkara4.jpg" class="d-block w-100 tvm-img-car" alt="">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <!-- End of places to visit -->
+
+    <!-- Other Major Places in Pathanamthitta -->
+    <div class="container cont-sree">
+        <h3 class="other">OTHER MAJOR ATTRACTIONS IN PATHANAMTHITTA</h3>
+        <div class="row">
+            <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./images/pathanamthitta/pandalam.jpg" class="d-block w-100 other-img" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/puthenkavil.jpg" class="d-block w-100 other-img" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/ChilanthiAmbalam.jpeg" class="d-block w-100 other-img" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/pathanamthitta/bridge.jpg" class="d-block w-100 other-img" alt="">
+                    </div>
+                    
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <form method="get" action="https://www.google.com/travel/things-to-do/places?g2lb=2502548%2C2503781%2C4258168%2C4270442%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4428793%2C4463263%2C4463666%2C4464463%2C4474859%2C4482194%2C4482438%2C4270859%2C4284970%2C4291517&hl=en-IN&gl=in&un=1&dest_mid=%2Fm%2F0fk98&dest_state_type=sap&dest_src=ts&sa=X&ved=2ahUKEwiR6PSLrZbuAhXP93MBHUeEAPMQ69EBKAMwAHoECAQQLA&mvb=ChIJejmxDmbtIEAR7o2wpA44U0ASEgmrVzKkBikhQBHujbDEmkBTQA#ttdm=8.492986_76.942688_12&ttdmf=%252Fg%252F1tj1qhvn" target=”_blank”>
+                    <button type="submit" class="explore">Click to explore more places</button>
+                </form>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+
+    <!-- End of Other Major Places in pathanamthitta -->
+
+
+    <div class="view view-cascade gradient-card-header peach-gradient">
+        <h3 id="heading">PATHANAMTHITTA MAP</h3>
+      </div>
+      <!--/Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade text-center">
+
+        <!--Google map-->
+        <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63005.113025208746!2d76.74304162058785!3d9.260412964493892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06152f4f9705d7%3A0x4d93dd296d4b4abc!2sPathanamthitta%2C%20Kerala!5e0!3m2!1sen!2sin!4v1610562111977!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+
+      </div>
+
+       <!-- footer -->
+       <footer  style="background-color: #2c292f">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 text-center text-md-left ">
+                    
+                    <div class="py-0">
+                        <h3 class="my-4 text-white"><span class="mx-2 font-italic text-warning ">Kerala Tourism</span></h3>
+  
+                        <p class="footer-links font-weight-bold">
+                            <a class="text-white" href="#">Home</a>
+                            |
+                            <a class="text-white" href="#">Blog</a>
+                            |
+                            <a class="text-white" href="#">About</a>
+                            |
+                            <a class="text-white" href="#">Contact</a>
+                        </p>
+                        <p class="text-light py-4 mb-4">All rights reserved © Kerala Tourism
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-white text-center text-md-left ">
+                    <div class="py-2 my-4">
+                        <div>
+                            <p class="text-white"> <i class="fa fa-map-marker mx-2 "></i>
+                              Department of Tourism, Government of Kerala,
+                              Park View, Thiruvananthapuram,
+                              Kerala, India - 695 033</p>
+                        </div>
+  
+                        <div> 
+                            <p><i class="fa fa-phone  mx-2 "></i> +91 471 232113</p>
+                        </div>
+                        <div>
+                            <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:info@keralatourism.org">info@keralatourism.org</a></p>
+                        </div>  
+                    </div>  
+                </div>
+                
+                <div class="col-md-4 text-white my-4 text-center text-md-left ">
+                    <span class=" font-weight-bold "><a href="#">Copyright</a>  |<a href="#">Terms of Use</a>  |<a href="#">Cookie Policy</a>  | <a href="#">Contact Us</a></span>
+          <p class="text-warning my-2" >Developed & Maintained by Vilsy Varghese.</p>
+                    <div class="py-2">
+                        <a href="#"><i class="fa fa-facebook fa-2x text-primary mx-3"></i></a>
+                        <a href="#"><i class="fa fa-google-plus fa-2x text-danger mx-3"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x text-info mx-3"></i></a>
+                        <a href="#"><i class="fa fa-youtube fa-2x text-danger mx-3"></i></a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+     </footer>
+     <!-- end of footer -->
+</body>
+</html>

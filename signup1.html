@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    
+</head>
+<body background="./images/signupbg.jpg">
+    
+    
+    
+    <div class="container">
+        <h1 id="signup">SIGN UP</h1>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4 signcol">
+
+                <form action="login.html" onsubmit="return validate();" class="bg-light">
+                    <div class="form-group">
+                        <label for="fname" class="labels">Name:</label>
+                        <br>
+                        <input onkeyup="toggle();" type="text" name="fname" class="form-control formbar w3-input" placeholder="Full Name" id="fname">
+                        <br>
+                        <label for="fnameError" id="fnameError"></label>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="phone" class="labels">Phone Number:</label>
+                        <br>
+                        <input onkeycup="toggle();" type="text" name="phone" id="phone" class="form-control formbar w3-input" placeholder="Mobile Number">
+                        <br>
+                        <label for="phError" id="phError"></label>
+                    </div>
+                    
+                    <br>
+                    <div class="form-group">
+                        <label for="email" class="labels">Email:</label>
+                        <br>
+                        <input onkeyup="toggle();" type="text" name="email" class="form-control formbar w3-input" placeholder="xyz@domain.com" id="email">
+                        <br>
+                        <label for="emailError" id="emailError"></label>
+                    </div>
+                    
+                    <br>
+                    <div class="form-group">
+                        <label for="password" class="labels">Password</label>
+                        <br>
+                        <input onkeyup="toggle();" type="password" name="password" placeholder="Password" id="pwd" class="form-control formbar w3-input">
+                        <br>
+                        <label for="pwderror" id="pwderror"></label>
+                    <!-- Password strength meter -->
+                    <progress id="progress" value="0" max="100%">100</progress>
+                    <span id="progresslabel"></span>
+                        </div>
+                        
+                        
+        
+                        
+                    
+                    <br>
+                    <div class="form-group">
+                        <label for="rpwd" class="labels">Repeat Password</label>
+                        <br>
+                        <input onkeyup="toggle();" type="password" name="rpwd" placeholder="Repeat Password" id="rpwd" class="form-control formbar w3-input">
+                        <br>
+                        <label for="rpwdError" id="rpwdError"></label>
+                    </div>
+                    
+                    
+                        <button type="submit" class="btn btn-primary" id="buttn" >Sign Up</button>
+                     
+                </form>
+
+                 
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+
+    </div>
+    
+    <!-- <form action="index.html">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="submit" value="Log In">
+    </form> -->
+
+
+  
+    <script src="./jscodes/signup.js"></script>
+    <script src="./jscodes/pwd-strength.js"></script>
+    
+</body>
+</html>

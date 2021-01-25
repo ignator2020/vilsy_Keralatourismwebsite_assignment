@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+.navbar-inner{
+    background-color: transparent;
+    
+}
+
+.menu{
+    float: right;
+}
+
+.myCarousel{
+    height: 500px;
+}
+
+.search-btn{
+    margin-left: 10px;
+}
+
+.nav-myMargin{
+    /* padding: px; */
+    border: 1px solid rgb(14, 92, 14);
+    margin: 5px;
+    border-radius: 0.8em;
+}
+
+.nav-myMargin :hover {
+    border-radius: 0.8em;
+    background-color: rgb(26, 112, 65);
+    color: white;
+    transition: 0.5s ease-in-out;
+
+    
+    
+}
+
+
+.heading{
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #000000;
+    color: brown
+    /* color: white; */
+}
+
+.district{
+    background-color: rgb(231, 227, 227);
+    height: 500px;
+    margin: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.district h2{
+    color: brown;
+}
+
+.attractions{
+    /* padding-top: 3%; */
+    height: 400px;
+    margin: 3%;
+    padding: 3%;
+    /* background-color: gray; */
+    
+}
+
+.attractions h2{
+    color: brown;
+    padding-bottom: 2%;
+}
+/* PLAN YOUR TRIP */
+#plantrip{
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: rgb(231, 227, 227);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icons{
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.icon-row{
+    padding-left: 40px;
+
+}
+.srchbx{
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: rgb(214, 209, 209);
+}
+
+
+
+
+.caption {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: center; */
+}
+
+.search-accm{
+    padding-top: 5%;
+}
+/* OWL CAROUSEL */
+
+.owl-demo{
+    margin-left: 10px;
+    padding-right: 3%;
+    height: 300px;
+    width: 250px;
+        
+  }
+
+.owl-img{
+    height: 300px;
+    width: 250px;
+    margin-right: 20px;
+    padding-right: 20px;
+    /* border: 1px solid black; */
+}
+
+.explore{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(145, 95, 95);
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 6%;
+    padding: 8px;
+    
+    border-radius: 10px;
+}
+
+  .rowMargin{
+     /* margin: 2px; */
+      padding:20px;
+     
+  }
+
+  .contMargin{
+      margin-right: 10px;
+      margin-left: 5px;
+      margin-top: 0;
+  }

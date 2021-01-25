@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(156, 204, 243);
+    background-image: radial-gradient(circle, rgb(241, 234, 234), rgb(197, 201, 204), rgb(160, 212, 240));
+}
+
+
+.tvm{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.cont-tvm{
+    background-color: white;
+    height: 400px;
+    width: 80%;
+    
+    margin-left: 8%;
+    margin-top: 5%;
+    padding: 2%;
+    /* border-radius: 1.5%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cont-tvm p{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.cont-tvm img{
+    height: 250px;
+    width: 400px;
+    float: left;
+    margin: 19px 16px 10px 10px;
+
+    /* border: 1px solid rgb(214, 212, 209); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.cont-tvm p{
+    line-height: 1.5em;
+    text-align: justify;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.cont-tvm p span{
+    float: left;
+  width: 0.7em;
+  font-size: 200%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
+/* sreepadmanabha temple */
+.tvm-img-car{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+
+
+.sreepad{
+    margin-top: 20px;
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.cont-sree{
+    background-color: white;
+    height: fit-content;
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    margin-top: 5%;
+    padding: 2%;
+    /* border-radius: 1.5%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sree-row{
+    padding: 30px;
+    margin: 18px ;
+    text-align: justify;
+}
+
+/* MAP CSS */
+
+#heading{
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #000000;
+    /* color: white; */
+}
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    /* END OF MAP CSS */
+
+    .other{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        color: rgb(145, 95, 95);
+        text-shadow: 2px 2px 4px #6d6969;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+    }
+
+    .other-img{
+        height: 400px;
+        width: 400px;
+    }
+
+
+    .explore{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        background-color: rgb(145, 95, 95);
+        text-align: center;
+        margin-top: 8px;
+        margin-left: 20%;
+        padding: 8px;
+        
+        border-radius: 10px;
+    }
